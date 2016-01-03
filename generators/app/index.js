@@ -3,7 +3,7 @@ const fmtUrl = require('normalize-url');
 const chalk = require('chalk');
 const yosay = require('yosay');
 
-const repo = 'https://github.com/laravel/laravel.git';
+const repo = 'https://github.com/laravel/lumen.git';
 
 module.exports = yeoman.generators.Base.extend({
   prompting: function() {
