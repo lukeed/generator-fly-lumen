@@ -10,7 +10,7 @@ module.exports = yeoman.generators.Base.extend({
     const done = this.async();
 
     this.log(yosay(
-      'Welcome to the ' + chalk.red('Fly Laravel') + ' generator!'
+      'Welcome to the ' + chalk.red('Fly Lumen') + ' generator!'
     ));
 
     const prompts = [{
@@ -152,7 +152,7 @@ module.exports = yeoman.generators.Base.extend({
     console.log('\n');
     this.spawnCommand('git', ['init']).on('close', function() {
       self.spawnCommand('git', ['add', '--all']).on('close', function() {
-        self.spawnCommand('git', ['commit', '-m', 'first commit, via generator-fly-laravel 🚀']).on('close', function() {
+        self.spawnCommand('git', ['commit', '-m', 'first commit, via generator-fly-lumen 🚀']).on('close', function() {
           console.log('\n');
           done();
         });

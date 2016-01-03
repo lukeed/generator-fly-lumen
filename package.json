@@ -1,8 +1,8 @@
 {
-  "name": "generator-fly-laravel",
+  "name": "generator-fly-lumen",
   "version": "0.3.1",
-  "description": "Scaffold a new Laravel application with Fly as its tooling system.",
-  "homepage": "lukeed/generator-fly-laravel",
+  "description": "Scaffold a new Lumen application with Fly as its tooling system.",
+  "homepage": "lukeed/generator-fly-lumen",
   "author": {
     "name": "Luke Edwards",
     "email": "luke.edwards05@gmail.com",
@@ -18,6 +18,7 @@
     "laravel",
     "starter",
     "webapp",
+    "lumen",
     "kit",
     "fly"
   ],
@@ -37,7 +38,7 @@
     "gulp-plumber": "^1.0.0",
     "gulp-nsp": "^2.1.0"
   },
-  "repository": "lukeed/generator-fly-laravel",
+  "repository": "lukeed/generator-fly-lumen",
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp"
