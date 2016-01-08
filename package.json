@@ -1,6 +1,6 @@
 {
   "name": "generator-fly-lumen",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "description": "Scaffold a new Lumen application with Fly as its tooling system.",
   "homepage": "lukeed/generator-fly-lumen",
   "author": {
@@ -11,7 +11,6 @@
   "files": [
     "generators"
   ],
-  "main": "generators/index.js",
   "keywords": [
     "yeoman-generator",
     "boilerplate",
@@ -22,26 +21,5 @@
     "kit",
     "fly"
   ],
-  "dependencies": {
-    "chalk": "^1.0.0",
-    "normalize-url": "^1.4.0",
-    "yeoman-generator": "^0.21.1",
-    "yosay": "^1.0.2"
-  },
-  "devDependencies": {
-    "yeoman-assert": "^2.0.0",
-    "gulp": "^3.6.0",
-    "gulp-eslint": "^1.0.0",
-    "gulp-exclude-gitignore": "^1.0.0",
-    "gulp-istanbul": "^0.9.0",
-    "gulp-mocha": "^2.0.0",
-    "gulp-plumber": "^1.0.0",
-    "gulp-nsp": "^2.1.0"
-  },
-  "repository": "lukeed/generator-fly-lumen",
-  "scripts": {
-    "prepublish": "gulp prepublish",
-    "test": "gulp"
-  },
   "license": "MIT"
 }
